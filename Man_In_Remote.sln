@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Attacker", "Attacker\Attacker.vcproj", "{674F3530-74DC-4BDF-999D-C4647E93E189}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Victim", "Victim\Victim.vcproj", "{868B98D4-5F68-4DF1-8894-3C050F8433FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{45F427D8-039F-48F8-ACB1-646EAAB71135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pkcs11", "pkcs11", "{83EAB598-B1FA-442E-82D8-F79C55BAE905}"
+	ProjectSection(SolutionItems) = preProject
+		Common\pkcs11\cryptokiv2.h = Common\pkcs11\cryptokiv2.h
+		Common\pkcs11\pkcs11.h = Common\pkcs11\pkcs11.h
+		Common\pkcs11\pkcs11f.h = Common\pkcs11\pkcs11f.h
+		Common\pkcs11\pkcs11t.h = Common\pkcs11\pkcs11t.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data2inet", "data2inet", "{ED5DE588-046C-4DD9-9B3B-0C632D62ACE9}"
+	ProjectSection(SolutionItems) = preProject
+		Common\data2inet\data2inet.h = Common\data2inet\data2inet.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674F3530-74DC-4BDF-999D-C4647E93E189}.Debug|Win32.ActiveCfg = Debug|Win32
+		{674F3530-74DC-4BDF-999D-C4647E93E189}.Debug|Win32.Build.0 = Debug|Win32
+		{674F3530-74DC-4BDF-999D-C4647E93E189}.Release|Win32.ActiveCfg = Release|Win32
+		{674F3530-74DC-4BDF-999D-C4647E93E189}.Release|Win32.Build.0 = Release|Win32
+		{868B98D4-5F68-4DF1-8894-3C050F8433FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{868B98D4-5F68-4DF1-8894-3C050F8433FD}.Debug|Win32.Build.0 = Debug|Win32
+		{868B98D4-5F68-4DF1-8894-3C050F8433FD}.Release|Win32.ActiveCfg = Release|Win32
+		{868B98D4-5F68-4DF1-8894-3C050F8433FD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83EAB598-B1FA-442E-82D8-F79C55BAE905} = {45F427D8-039F-48F8-ACB1-646EAAB71135}
+		{ED5DE588-046C-4DD9-9B3B-0C632D62ACE9} = {45F427D8-039F-48F8-ACB1-646EAAB71135}
+	EndGlobalSection
+EndGlobal
